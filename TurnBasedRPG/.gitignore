@@ -1,0 +1,27 @@
+# Haxe-specific ignores
+.haxelib/
+.haxelsp/
+recording/
+dump/
+
+# Binaries for all targets (default output by the "lime" command)
+Export/
+
+# OpenFL/Lime build files
+# These folders are generated during the build process and can be safely ignored.
+# Depending on your specific target (e.g., html5, neko, cpp), different folders might appear.
+bin/
+build/
+obj/
+
+# Editor-specific ignores (optional, add as needed)
+.idea/         # IntelliJ IDEA
+.vscode/       # VS Code
+*.sublime-project # Sublime Text
+*.sublime-workspace
+
+# OS-specific ignores
+.DS_Store
+Thumbs.db
+
+export/
